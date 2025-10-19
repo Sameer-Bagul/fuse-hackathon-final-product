@@ -1,0 +1,4 @@
+Hey everyone! I’m Sameer, a developer passionate about building and creating innovative solutions. Just recently me and my team went for a Hackathon at SKNCOE Pune and we came across a really amazing Problem statement and we build something really cool around it.
+The problem statement was to an AI model that can learn to from the Reinforcement Learning feedback loop with the meta learning capabilities.
+So we build an AI model that can learn to teach other AI models.
+We named it "Learno" - An AI that learns to teach.
