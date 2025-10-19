@@ -151,7 +151,7 @@ export const LearningControl = () => {
   }
 
   return (
-    <div className="space-y-6">
+  <div className="space-y-6">
       {/* Loop Status Banner */}
       {loopStatus && (
         <Alert className={
@@ -172,9 +172,9 @@ export const LearningControl = () => {
             <div className="flex-1">
               <div className="flex items-center gap-2 mb-1">
                 <p className="font-semibold text-sm">
-                  {loopStatus.waiting_for_initial_prompt ? "⏳ Waiting for Initial Prompt" : 
-                   loopStatus.is_running ? "🚀 Autonomous Learning Active" : 
-                   "⏸️ Learning Loop Stopped"}
+                  {loopStatus.waiting_for_initial_prompt ? "Waiting for Initial Prompt" : 
+                   loopStatus.is_running ? "Autonomous Learning Active" : 
+                   "Learning Loop Stopped"}
                 </p>
                 {loopStatus.is_running && (
                   <Badge variant="outline" className="bg-green-100 text-green-700 border-green-300">
@@ -210,11 +210,11 @@ export const LearningControl = () => {
           <CardDescription>
             {loopStatus?.waiting_for_initial_prompt ? (
               <span className="text-yellow-600 dark:text-yellow-400 font-medium">
-                🎯 Submit your first prompt to begin autonomous learning! The system will then generate all subsequent prompts automatically.
+                Submit your first prompt to begin autonomous learning! The system will then generate all subsequent prompts automatically.
               </span>
             ) : loopStatus?.is_running ? (
               <span className="text-green-600 dark:text-green-400 font-medium">
-                ✅ LLM is generating prompts autonomously. All iterations are happening in the background.
+                LLM is generating prompts autonomously. All iterations are happening in the background.
               </span>
             ) : (
               "Enter an initial prompt to start autonomous learning. The system will learn and improve continuously."
@@ -246,7 +246,7 @@ export const LearningControl = () => {
               <Textarea
                 placeholder={
                   loopStatus?.waiting_for_initial_prompt 
-                    ? "🎯 Enter your initial prompt here to kickstart autonomous learning... (e.g., 'Teach me about Python basics and ML fundamentals')"
+                    ? "Enter your initial prompt here to kickstart autonomous learning... (e.g., 'Teach me about Python basics and ML fundamentals')"
                     : loopStatus?.is_running
                     ? "Autonomous learning is active. LLM is generating prompts automatically..."
                     : "Enter a new prompt to restart autonomous learning..."
@@ -283,7 +283,7 @@ export const LearningControl = () => {
                   ) : loopStatus?.waiting_for_initial_prompt ? (
                     <>
                       <Send className="h-4 w-4 mr-2" />
-                      🚀 Submit Initial Prompt & Start Learning
+                      Submit Initial Prompt & Start Learning
                     </>
                   ) : (
                     <>
@@ -332,7 +332,7 @@ export const LearningControl = () => {
                   <CheckCircle className="h-5 w-5 text-green-600 mt-0.5" />
                   <div className="flex-1">
                     <p className="text-sm text-green-800 dark:text-green-200 font-semibold mb-2">
-                      ✓ Autonomous Learning Active - LLM is in Control
+                      Autonomous Learning Active - LLM is in Control
                     </p>
                     <div className="grid grid-cols-2 gap-4 text-xs">
                       <div>

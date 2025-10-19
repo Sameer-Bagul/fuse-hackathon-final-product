@@ -1,8 +1,8 @@
-# 🤖 MindMatrix — Autonomous Multi-Objective Curriculum Learning Engine
+# MindMatrix — Autonomous Multi-Objective Curriculum Learning Engine
 
 > **"The best way to learn is to teach"** - An AI system that teaches itself through automated curriculum learning, visualized beautifully in a modern dashboard.
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Project Overview](#-project-overview)
 - [Architecture](#-architecture)
@@ -21,7 +21,7 @@
 
 ---
 
-## 🎯 Project Overview
+## Project Overview
 
 ### What is MindMatrix?
 
@@ -53,7 +53,7 @@ Frontend (React/TypeScript) ↔ Express Proxy ↔ ML Backend (Python/FastAPI)
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ### MVC Pattern Implementation
 
@@ -96,9 +96,9 @@ The system follows a clean **Model-View-Controller** architecture with service l
 
 ---
 
-## 🚀 Core Features
+## Core Features
 
-### 1. 🤖 Reinforcement Learning Engine
+### 1. Reinforcement Learning Engine
 
 - **PPO/DQN Algorithms**: State-of-the-art reinforcement learning for prompt optimization
 - **Q-Learning Implementation**: Learn from prompt patterns and user interactions
@@ -106,7 +106,7 @@ The system follows a clean **Model-View-Controller** architecture with service l
 - **Pattern Recognition**: Analyze text patterns for better response generation
 - **LLM Performance Evaluation**: Comprehensive evaluation on diverse tasks
 
-### 2. 📊 Advanced Analytics & Visualization
+### 2. Advanced Analytics & Visualization
 
 - **Real-Time Dashboards**: Interactive charts showing learning progress
 - **Multi-Objective Metrics**: Track accuracy, coherence, factuality, creativity
